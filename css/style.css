@@ -9757,3 +9757,67 @@ textarea.form-control {
     line-height: 1.8;
     color: #6c757d !important;
 }
+
+/* =========================
+   Certifications Timeline
+========================= */
+
+.certifications-page {
+    margin-top: 80px;
+}
+
+.certification-timeline {
+    position: relative;
+    margin-top: 30px;
+    padding-left: 40px;
+}
+
+.certification-timeline::before {
+    content: "";
+    position: absolute;
+    left: 5px;
+    top: 8px;
+    bottom: 0;
+    width: 2px;
+    background: #d9e2ec;
+}
+
+.certification-item {
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.certification-dot {
+    position: absolute;
+    left: -41px;
+    top: 7px;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background: #2563eb !important;
+    border: 2px solid #ffffff !important;
+    box-shadow: 0 0 0 2px #2563eb !important;
+    z-index: 2;
+}
+
+.certification-date {
+    display: block;
+    margin-bottom: 10px;
+    color: #2563eb !important;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.certification-content h2 {
+    margin-bottom: 6px;
+    font-size: 22px;
+    font-weight: 600;
+    color: #222222 !important;
+}
+
+.certification-content h3 {
+    margin-bottom: 0;
+    font-size: 15px;
+    font-weight: 400;
+    color: #6c757d !important;
+}
