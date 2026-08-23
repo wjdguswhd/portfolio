@@ -9762,9 +9762,7 @@ textarea.form-control {
    Certifications Timeline
 ========================= */
 
-.certifications-page {
-    margin-top: 80px;
-}
+
 
 .certification-timeline {
     position: relative;
@@ -9820,4 +9818,8 @@ textarea.form-control {
     font-size: 15px;
     font-weight: 400;
     color: #6c757d !important;
+}
+#certifications-section {
+    padding-top: 60px;
+    padding-bottom: 80px;
 }
