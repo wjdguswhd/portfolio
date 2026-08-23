@@ -9688,7 +9688,7 @@ textarea.form-control {
 }
 
 /* =========================
-   Education Timeline
+   Education Timeline - Blue
 ========================= */
 
 .education-timeline {
@@ -9697,7 +9697,6 @@ textarea.form-control {
     padding-left: 40px;
 }
 
-/* 세로선 */
 .education-timeline::before {
     content: "";
     position: absolute;
@@ -9705,10 +9704,9 @@ textarea.form-control {
     top: 8px;
     bottom: 0;
     width: 2px;
-    background: #dfe6ee;
+    background: #d9e2ec !important;
 }
 
-/* 각각의 항목 */
 .education-item {
     position: relative;
     margin-bottom: 55px;
@@ -9718,7 +9716,6 @@ textarea.form-control {
     margin-bottom: 0;
 }
 
-/* 파란색 점 */
 .education-dot {
     position: absolute;
     left: -41px;
@@ -9726,41 +9723,37 @@ textarea.form-control {
     width: 13px;
     height: 13px;
     border-radius: 50%;
-    background: #007bff;
-    border: 2px solid #ffffff;
-    box-shadow: 0 0 0 2px #007bff;
+    background: #2563eb !important;
+    border: 2px solid #ffffff !important;
+    box-shadow: 0 0 0 2px #2563eb !important;
     z-index: 2;
 }
 
-/* 날짜 */
 .education-date {
     display: block;
     margin-bottom: 10px;
-    color: #007bff;
+    color: #2563eb !important;
     font-size: 14px;
     font-weight: 600;
 }
 
-/* 교육명 */
 .education-content h2 {
     margin-bottom: 6px;
     font-size: 22px;
     font-weight: 600;
-    color: #222222;
+    color: #222222 !important;
 }
 
-/* 기관 */
 .education-content h3 {
     margin-bottom: 12px;
     font-size: 15px;
     font-weight: 400;
-    color: #6c757d;
+    color: #6c757d !important;
 }
 
-/* 설명 */
 .education-content p {
     margin-bottom: 0;
     font-size: 15px;
     line-height: 1.8;
-    color: #6c757d;
+    color: #6c757d !important;
 }
