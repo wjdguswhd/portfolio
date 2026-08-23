@@ -9687,113 +9687,77 @@ textarea.form-control {
   overflow-wrap: break-word;
 }
 
-/* =========================
-   Education Timeline
-========================= */
+/* Education Timeline */
 
 .education-timeline {
     position: relative;
-    padding: 10px 0 10px 45px;
+    margin-top: 30px;
+    padding-left: 40px;
 }
 
-/* 가운데 세로선 */
+/* 세로선 */
 .education-timeline::before {
     content: "";
     position: absolute;
-    left: 12px;
-    top: 10px;
-    bottom: 10px;
-    width: 3px;
-    background: #ffbd39;
-    border-radius: 10px;
+    left: 5px;
+    top: 8px;
+    bottom: 0;
+    width: 2px;
+    background: #e5e5e5;
 }
 
-/* 각각의 교육 */
+/* 각각의 항목 */
 .education-item {
     position: relative;
-    margin-bottom: 45px;
+    margin-bottom: 55px;
 }
 
+/* 마지막 항목 */
 .education-item:last-child {
     margin-bottom: 0;
 }
 
-/* 타임라인 원 */
+/* 주황색 점 */
 .education-dot {
     position: absolute;
-    left: -45px;
-    top: 0;
-    width: 28px;
-    height: 28px;
+    left: -41px;
+    top: 7px;
+    width: 13px;
+    height: 13px;
     border-radius: 50%;
-    background: #ffbd39;
-    border: 4px solid #fff;
-    box-shadow: 0 0 0 3px #ffbd39;
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    background: #ff6347;
     z-index: 2;
-}
-
-/* 아이콘 */
-.education-dot span {
-    color: #fff;
-    font-size: 12px;
-}
-
-/* 내용 박스 */
-.education-content {
-    position: relative;
-    padding: 22px 25px;
-    background: #fff;
-    border-radius: 8px;
-    border-left: 4px solid #ffbd39;
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
 }
 
 /* 날짜 */
 .education-date {
-    display: inline-block;
-    padding: 5px 12px;
+    display: block;
     margin-bottom: 10px;
-    border-radius: 20px;
-    background: #fff3d6;
-    color: #e6a400;
-    font-size: 13px;
+    color: #ff6347;
+    font-size: 14px;
     font-weight: 600;
 }
 
 /* 교육명 */
 .education-content h2 {
     margin-bottom: 6px;
-    font-size: 21px;
+    font-size: 22px;
     font-weight: 600;
-    color: #333;
+    color: #111;
 }
 
 /* 기관 */
 .education-content h3 {
-    margin-bottom: 10px;
+    margin-bottom: 12px;
     font-size: 15px;
-    font-weight: 500;
-    color: #999;
+    font-weight: 400;
+    color: #777;
 }
 
 /* 설명 */
 .education-content p {
     margin-bottom: 0;
-    font-size: 14px;
+    font-size: 15px;
     line-height: 1.8;
-    color: #666;
-}
-
-/* 마우스 올렸을 때 */
-.education-content {
-    transition: all 0.3s ease;
-}
-
-.education-content:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+    color: #777;
 }
