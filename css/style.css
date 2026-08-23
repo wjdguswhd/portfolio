@@ -9955,3 +9955,188 @@ textarea.form-control {
         padding: 20px;
     }
 }
+
+/* =========================
+   Project Card
+========================= */
+
+.project-card {
+    cursor: pointer;
+}
+
+.project-more {
+    margin-top: 20px;
+    color: #2563eb;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+
+/* =========================
+   Project Modal
+========================= */
+
+.project-modal {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(15, 23, 42, 0.65);
+
+    align-items: center;
+    justify-content: center;
+
+    padding: 20px;
+}
+
+.project-modal.active {
+    display: flex;
+}
+
+.project-modal-content {
+    position: relative;
+
+    width: 100%;
+    max-width: 700px;
+    max-height: 85vh;
+
+    overflow-y: auto;
+
+    background: #ffffff;
+    border-radius: 18px;
+
+    padding: 40px;
+
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
+
+    animation: projectModalShow 0.25s ease;
+}
+
+@keyframes projectModalShow {
+
+    from {
+        opacity: 0;
+        transform: translateY(20px) scale(0.98);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+
+}
+
+.project-modal-close {
+    position: absolute;
+
+    top: 15px;
+    right: 20px;
+
+    width: 40px;
+    height: 40px;
+
+    border: none;
+    background: transparent;
+
+    color: #64748b;
+
+    font-size: 30px;
+    line-height: 1;
+
+    cursor: pointer;
+}
+
+.project-modal-close:hover {
+    color: #2563eb;
+}
+
+.project-modal-content h2 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+
+    color: #111827;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.modal-subtitle {
+    color: #64748b;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.modal-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    gap: 25px;
+
+    padding: 20px 0;
+
+    border-top: 1px solid #e5e7eb;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.modal-info strong {
+    display: block;
+
+    margin-bottom: 8px;
+
+    color: #2563eb;
+    font-size: 13px;
+}
+
+.modal-info p {
+    margin: 0;
+
+    color: #374151;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.modal-section {
+    margin-top: 30px;
+}
+
+.modal-section h3 {
+    margin-bottom: 15px;
+
+    color: #111827;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.modal-section ul {
+    padding-left: 20px;
+}
+
+.modal-section li {
+    margin-bottom: 10px;
+
+    color: #4b5563;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+
+/* 모바일 */
+@media (max-width: 767px) {
+
+    .project-modal-content {
+        padding: 30px 22px;
+        max-height: 90vh;
+    }
+
+    .modal-info {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .project-modal-content h2 {
+        font-size: 25px;
+    }
+
+}
