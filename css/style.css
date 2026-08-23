@@ -9687,7 +9687,9 @@ textarea.form-control {
   overflow-wrap: break-word;
 }
 
-/* Education Timeline */
+/* =========================
+   Education Timeline
+========================= */
 
 .education-timeline {
     position: relative;
@@ -9703,7 +9705,7 @@ textarea.form-control {
     top: 8px;
     bottom: 0;
     width: 2px;
-    background: #e5e5e5;
+    background: #dfe6ee;
 }
 
 /* 각각의 항목 */
@@ -9712,12 +9714,11 @@ textarea.form-control {
     margin-bottom: 55px;
 }
 
-/* 마지막 항목 */
 .education-item:last-child {
     margin-bottom: 0;
 }
 
-/* 주황색 점 */
+/* 파란색 점 */
 .education-dot {
     position: absolute;
     left: -41px;
@@ -9725,7 +9726,9 @@ textarea.form-control {
     width: 13px;
     height: 13px;
     border-radius: 50%;
-    background: #ff6347;
+    background: #007bff;
+    border: 2px solid #ffffff;
+    box-shadow: 0 0 0 2px #007bff;
     z-index: 2;
 }
 
@@ -9733,7 +9736,7 @@ textarea.form-control {
 .education-date {
     display: block;
     margin-bottom: 10px;
-    color: #ff6347;
+    color: #007bff;
     font-size: 14px;
     font-weight: 600;
 }
@@ -9743,7 +9746,7 @@ textarea.form-control {
     margin-bottom: 6px;
     font-size: 22px;
     font-weight: 600;
-    color: #111;
+    color: #222222;
 }
 
 /* 기관 */
@@ -9751,7 +9754,7 @@ textarea.form-control {
     margin-bottom: 12px;
     font-size: 15px;
     font-weight: 400;
-    color: #777;
+    color: #6c757d;
 }
 
 /* 설명 */
@@ -9759,5 +9762,5 @@ textarea.form-control {
     margin-bottom: 0;
     font-size: 15px;
     line-height: 1.8;
-    color: #777;
+    color: #6c757d;
 }
