@@ -9672,3 +9672,17 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+.contact-section .contact-info > div {
+  flex: 0 0 30%;
+  max-width: 30%;
+}
+
+.contact-section .contact-info .box {
+  width: 100%;
+}
+
+.contact-section .contact-info p a {
+  word-break: break-all;
+  overflow-wrap: break-word;
+}
