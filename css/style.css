@@ -9938,6 +9938,10 @@ textarea.form-control {
     margin-bottom: 0;
 }
 
+.project-title {
+  margin-bottom: 70px; /* 원하는 간격 크기(px, rem 등) 지정 */
+}
+
 
 /* 모바일 */
 @media (max-width: 767px) {
