@@ -10171,3 +10171,8 @@ textarea.form-control {
     }
 
 }
+
+#about-section .heading-section p {
+  word-break: keep-all;
+  overflow-wrap: break-word;
+}
